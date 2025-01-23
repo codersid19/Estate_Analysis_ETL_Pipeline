@@ -1,0 +1,6 @@
+postgres:
+  port: "5435"
+project:
+  name: estate-analysis
+webserver:
+  port: "8081"
