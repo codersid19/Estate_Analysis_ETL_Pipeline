@@ -51,7 +51,7 @@ with DAG(
 
     def load_data():
         """Load the transformed data into MongoDB."""
-        uri = "mongodb+srv://siddhant19shirodkar12:Admin19@cluster0.7cc2g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        uri = "ur"
         client = MongoClient(uri)
         db = client['real_estate_db']
         collection = db['properties']
